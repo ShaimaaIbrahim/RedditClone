@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raywenderlich.android.redditclone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:5:3-64
+11-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:5:20-62
+12
+13    <application
+13-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:7:3-21:17
+14        android:allowBackup="false"
+14-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:8:5-32
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0-alpha02] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\1835f1de74a9658002fd8dbf6fbc48d2\core-1.5.0-alpha02\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:9:5-39
+18        android:label="@string/app_name"
+18-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:10:5-37
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:11:5-50
+20        android:supportsRtl="true"
+20-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:12:5-31
+21        android:testOnly="true"
+22        android:theme="@style/SplashTheme" >
+22-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:13:5-39
+23        <activity android:name="com.raywenderlich.android.redditclone.ui.RedditPostsActivity" >
+23-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:14:5-20:16
+23-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:14:15-53
+24            <intent-filter>
+24-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:15:7-19:23
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:16:9-61
+25-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:16:17-58
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:18:9-69
+27-->C:\projects\RW-RedditClone\starter\app\src\main\AndroidManifest.xml:18:19-66
+28            </intent-filter>
+29        </activity>
+30
+31        <service
+31-->[androidx.room:room-runtime:2.3.0-alpha02] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\800408ac8d27e1375ae7d3c48f52b16d\room-runtime-2.3.0-alpha02\AndroidManifest.xml:25:9-28:40
+32            android:name="androidx.room.MultiInstanceInvalidationService"
+32-->[androidx.room:room-runtime:2.3.0-alpha02] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\800408ac8d27e1375ae7d3c48f52b16d\room-runtime-2.3.0-alpha02\AndroidManifest.xml:26:13-74
+33            android:directBootAware="true"
+33-->[androidx.room:room-runtime:2.3.0-alpha02] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\800408ac8d27e1375ae7d3c48f52b16d\room-runtime-2.3.0-alpha02\AndroidManifest.xml:27:13-43
+34            android:exported="false" />
+34-->[androidx.room:room-runtime:2.3.0-alpha02] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\800408ac8d27e1375ae7d3c48f52b16d\room-runtime-2.3.0-alpha02\AndroidManifest.xml:28:13-37
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\28c4d723f8d24cc35e033defb571259a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\28c4d723f8d24cc35e033defb571259a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+38            android:authorities="com.raywenderlich.android.redditclone.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\28c4d723f8d24cc35e033defb571259a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\28c4d723f8d24cc35e033defb571259a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaimaa\.gradle\caches\transforms-2\files-2.1\28c4d723f8d24cc35e033defb571259a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+41    </application>
+42
+43</manifest>
